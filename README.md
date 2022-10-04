@@ -28,4 +28,8 @@ conda env create --prefix ./env --file environment.yml
 
 ### Run Unit Tests
 
-:point_right: use vs code
+```bash
+python -m unittest python_utils_tests.file_test
+```
+
+:point_right: or use vs code testing environment configured in .vscode/settings.json

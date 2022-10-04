@@ -121,7 +121,7 @@ def find_file(directory, file_name) -> str:
         logging.error("no file named " + file_name + " found in " + directory)
         raise FileNotFoundError(errno.ENOENT, os.strerror(errno.ENOENT), file_name)
     if len(all_files) > 1:
-        logging.warn("more than one file named " + file_name + " found in " + directory)
+        logging.warning("more than one file named " + file_name + " found in " + directory)
     return all_files[0]
 
 
