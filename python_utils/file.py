@@ -23,6 +23,23 @@ def ensure_dir_created(directory) -> None:
         logging.info("Directory " + str(directory) + " created")
 
 
+def ensure_dir_removed(directory) -> None:
+    """
+    Removes a directory if existing and logs a feedback.
+
+    Parameters
+    ----------
+    directory : string
+        Absolute directory string.
+    Returns
+    -------
+    None.
+    """
+    if os.path.exists(directory):
+        shutil.rmtree(directory)
+        logging.info("Directory " + str(directory) + " removed")
+
+
 def clear_dir_content(directory) -> None:
     """
     Clears a directory's content and logs a feedback

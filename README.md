@@ -2,6 +2,8 @@
 
 personal collection of python utils
 
+:point_right: with unit tests just to try
+
 ## Usage
 
 ### Install
