@@ -1,0 +1,6 @@
+name: utils-dev-env
+channels:
+- conda
+dependencies:
+- python=3.10
+- black

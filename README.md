@@ -11,3 +11,21 @@ personal collection of python utils
 ```bash
 pip install git+https://github.com/jesterberth/python_utils.git
 ```
+
+## Develop
+
+### Get Source
+
+```bash
+git clone https://github.com/jesterberth/python_utils.git
+```
+
+### Conda Development Environment
+
+```bash
+conda env create --prefix ./env --file environment.yml
+```
+
+### Run Unit Tests
+
+:point_right: use vs code
